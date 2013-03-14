@@ -1,8 +1,10 @@
 :tddium:
   :python:
     :python_version: 2.7
+  :hooks:
+    :pre: python setup.py install
   :tests:
     - type: custom
-      command: 'python setup.py install && python run-tests.py'
+      command: 'python run-tests.py'
       invocation: single
       output: exit-status
