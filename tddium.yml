@@ -1,0 +1,5 @@
+:tddium:
+  :python:
+    :python_version: 2.7
+  :tests:
+    - python setup.py install && python run-tests.py
