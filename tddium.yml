@@ -2,7 +2,7 @@
   :python:
     :python_version: 2.7
   :hooks:
-    :pre: python setup.py install
+    :pre: setup.sh
   :tests:
     - type: custom
       command: 'python run-tests.py'
