@@ -2,7 +2,7 @@
   :python:
     :python_version: 2.7
   :tests:
-    type: custom
-    command: python setup.py install && python run-tests.py
-    invocation: single
-    output: exit-status
+    - type: custom
+      command: python setup.py install && python run-tests.py
+      invocation: single
+      output: exit-status
