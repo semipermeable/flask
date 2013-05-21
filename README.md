@@ -1,6 +1,6 @@
 # Flask
 
-Web development, one drop at a time
+Web development, one drop at a time.
 
 
 ## What is Flask?
